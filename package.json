@@ -1,1 +1,31 @@
-{"dependencies":{"discord.js":"^14.28.1"},"description":"Discord bot for the Mabusaba server: mini-games and the XP/level system, split from mabubot. Standalone, no connection to p1228 or logbot.","devDependencies":{"@types/node":"26.6.6","prettier":"3.10.1","tsx":"4.23.15","typescript":"7.0.2"},"engines":{"node":">=24.0.0"},"main":"dist/src/index.js","name":"mabubot-play","private":true,"scripts":{"build":"tsc -p tsconfig.json","clear:commands":"tsx src/clear-commands.ts","dev":"tsx src/index.ts","format":"prettier --write \"src/**/*.ts\" \"tests/**/*.ts\" \"package.json\" \"tsconfig.json\" \"ecosystem.config.cjs\" \".github/workflows/*.yml\" \".github/dependabot.yml\"","format:check":"prettier --check \"src/**/*.ts\" \"tests/**/*.ts\" \"package.json\" \"tsconfig.json\" \"ecosystem.config.cjs\" \".github/workflows/*.yml\" \".github/dependabot.yml\"","start":"node dist/src/index.js","sync:commands":"tsx src/sync-commands.ts","test":"npm run build && node --test dist/tests/*.test.js","typecheck":"tsc --noEmit -p tsconfig.json"},"type":"module","version":"1.0.0"}
+{
+  "dependencies": {
+    "discord.js": "^14.28.1"
+  },
+  "description": "Discord bot for the Mabusaba server: mini-games and the XP/level system, split from mabubot. Standalone, no connection to p1228 or logbot.",
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "prettier": "3.10.1",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "main": "dist/src/index.js",
+  "name": "mabubot-play",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clear:commands": "tsx src/clear-commands.ts",
+    "dev": "tsx src/index.ts",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\" \"package.json\" \"tsconfig.json\" \"ecosystem.config.cjs\" \".github/workflows/*.yml\" \".github/dependabot.yml\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\" \"package.json\" \"tsconfig.json\" \"ecosystem.config.cjs\" \".github/workflows/*.yml\" \".github/dependabot.yml\"",
+    "start": "node dist/src/index.js",
+    "sync:commands": "tsx src/sync-commands.ts",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

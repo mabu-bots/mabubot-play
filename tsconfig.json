@@ -1,1 +1,18 @@
-{"compilerOptions":{"declaration":false,"esModuleInterop":true,"forceConsistentCasingInFileNames":true,"lib":["ES2024"],"module":"NodeNext","moduleResolution":"NodeNext","outDir":"dist","resolveJsonModule":true,"rootDir":".","skipLibCheck":true,"sourceMap":false,"strict":true,"target":"ES2024"},"include":["src/**/*.ts","tests/**/*.ts"]}
+{
+  "compilerOptions": {
+    "declaration": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2024"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "ES2024"
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"]
+}
