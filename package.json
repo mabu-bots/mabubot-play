@@ -4,7 +4,7 @@
   },
   "description": "Discord bot for the Mabusaba server: mini-games and the XP/level system, split from mabubot. Standalone, no connection to p1228 or logbot.",
   "devDependencies": {
-    "@types/node": "26.6.6",
+    "@types/node": "26.6.9",
     "prettier": "3.10.1",
     "tsx": "4.23.15",
     "typescript": "7.0.2"
